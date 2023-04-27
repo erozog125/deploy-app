@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222222;
+}
+
+header {
+  width: 100%;
+  height: 20%;
+  border-bottom: double 2px #ffffff;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > h1 {
+  text-align: center;
+  color: #03abab;
+  font-size: 5rem;
+  text-shadow: 0 0 10px #0000ff;
+}
+
+button {
+  margin: 1rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 15px;
+  background-color: #1f2a2c;
+  color: #ffa500;
+  box-shadow: 0 0 5px #ffffff;
+  font-weight: 900;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px #ffa500;
+  color: #ffffff;
+  border: none;
+}
+
+main {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  border: groove 3px #250000;
+}
+
+.card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
